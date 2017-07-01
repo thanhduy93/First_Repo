@@ -1,0 +1,65 @@
+.header {
+	font-family: "Regular", Times New Roman, Times, serif;
+	padding-bottom: 100px;
+}
+.text_header {
+	text-align: center;
+}
+.header_navbar {
+	padding-bottom: 100px;
+}
+.logo_font_size {
+	font-size: 20px;
+	color: #141720;
+}
+.navbar_header_font_size {
+	font-size: 16px;
+}
+.navbar_header_font_size a {
+	color: #141720;
+}
+.navbar_header_float {
+	float: right;
+}
+.text_h2 {
+	font-size: 44px;
+	color: #141720;
+}
+.text_note_header {
+	font-size: 25px;
+	color: #5D5F65;
+}
+a:hover {
+	color: green;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+	background-color: #ffffff;
+}
+.content-border {
+	background-color: #141720;
+	width: 50%;
+	padding-right: 10%;
+	padding-left: 7%;
+	line-height: 100px;
+}
+
+/* About Us: */
+.content-border span {
+	font-size: 28px;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	line-height: 26px;
+	padding-bottom: 30px;
+}
+
+/* A posuere scelerisqu: */
+.content-border p {
+	font-size: 15px;
+	color: #FFFFFF;
+	letter-spacing: 0.5px;
+	line-height: 26px;
+}
+.content-border p {
+	
+	margin-bottom: 10%;
+}

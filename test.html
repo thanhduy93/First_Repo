@@ -11,61 +11,14 @@
 
 		<!-- Latest compiled JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<style type="text/css">
-			.header {
-				font-family: "Regular",Times New Roman, Times, serif;			
-			}
 
-			.text_header {
-				text-align: center;
-			}	
-
-			.row{
-				padding-bottom: 100px;
-			}
-
-			.logo_font_size {
-				font-size: 20px;	
-				color: #141720;
-			}
-
-			.navbar_header_font_size {
-				font-size: 16px;
-			}
-
-			.navbar_header_font_size a {
-				color: #141720;
-			}
-
-			.navbar_header_float {
-				float: right;
-			}
-
-			.text_h2 {
-				font-size: 44px;
-				color: #141720;
-			}
-
-			.text_note_header {
-				font-size: 25px;
-				color: #5D5F65;
-			}
-
-			a:hover {
-			    color: green;
-			}
-
-			.nav > li > a:focus, .nav > li > a:hover {
-				background-color: #ffffff;				
-    		}
-		</style>
-
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 
-		<div class ="container"> 
+		<div class ="container-fluid"> 
 			<div class="header">
-				<div class="row">
+				<div class="row header_navbar">
 					  <div class="col-md-4">
 					  	<ul class="nav navbar-nav">
 					      <li ><a href="#" class="logo_font_size">Company</a></li>
@@ -86,7 +39,33 @@
 					<span class="text_note_header">Habitasse vestibulum a mi odio ut rutrum mauris leo lorem</span>
 				</div>
 			</div>
+		</div>
 
+		<div class="container-fluid">
+			<!-- <div class="row">
+				<div class="col-md-6">
+					<div class="content-border">
+						<span>About Us</span>
+						<p>A posuere scelerisque gravida facilisi parturient magna urna donec parturient per augue a amet quam nullam a ad a. Parturient velit imperdiet in suspendisse eget a parturient adipiscing penatibus convallis himenaeos felis torquent facilisi elementum a penatibus suscipit aliquam.</p>
+						<p>Porta at at suspendisse dolor fames ullamcorper cum id per suspendisse a dignissim eu dapibus platea turpis augue mi proin lorem morbi sapien facilisis lectus.</p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<img class="img-responsive" src="Image/Bitmap.png" alt="Chania">
+				</div>
+			</div> -->
+			<table>
+				<tr>
+					<td class="content-border">
+							<span>About Us</span>
+							<p>A posuere scelerisque gravida facilisi parturient magna urna donec parturient per augue a amet quam nullam a ad a. Parturient velit imperdiet in suspendisse eget a parturient adipiscing penatibus convallis himenaeos felis torquent facilisi elementum a penatibus suscipit aliquam.</p>
+							<p>Porta at at suspendisse dolor fames ullamcorper cum id per suspendisse a dignissim eu dapibus platea turpis augue mi proin lorem morbi sapien facilisis lectus.</p>
+					</td>
+					<td>
+						<img class="img-responsive" src="Image/Bitmap.png" alt="Chania">	
+					</td>
+				</tr>
+			</table>
 		</div>
 
 	</body>
